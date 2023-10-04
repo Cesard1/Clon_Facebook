@@ -1,0 +1,98 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+/* Estilos para la barra de navegación */
+header {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+}
+
+.search-bar {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.search-bar i {
+    margin-right: 10px;
+    color: #1877f2;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.menu-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Estilos para las publicaciones */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info h2 {
+    font-size: 18px;
+}
+
+/* Estilos para las imágenes de perfil ficticias */
+.user-info img {
+    border-radius: 50%;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
